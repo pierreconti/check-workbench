@@ -1,0 +1,25 @@
+{
+  "name": "Check",
+  "id_name": "check",
+  "category" : "Add data",
+  "loads_data": true,
+  "description" : "Import Check team data into Workbench",
+  "help_url": "https://github.com/meedan/check-workbench",
+  "parameters": [
+    {
+      "name" : "API key",
+      "id_name" : "key",
+      "type" : "string"
+    },
+    {
+      "name": "Team",
+      "id_name" : "team",
+      "type": "string"
+    },
+    {
+      "name": "Update",
+      "id_name" : "version_select",
+      "type": "custom"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+query {
+  team(slug: "${team}") {
+    projects { edges { node {
+      title
+      project_medias { edges { node {
+        created_at
+        report_type
+        metadata
+        last_status
+        media {
+          quote
+          picture
+          url
+          embed
+        }
+        tags { edges { node {
+          tag_text
+        }}}
+        tasks { edges { node {
+          created_at
+          label
+          jsonoptions
+          status
+          first_response {
+            created_at
+            content
+          }
+          log { edges { node {
+            annotation {
+              created_at
+              content
+            }
+            event_type
+          }}}
+        }}}
+        annotations(annotation_type: "comment") { edges { node {
+          created_at
+          content
+        }}}
+      }}}
+    }}}
+  }
+}

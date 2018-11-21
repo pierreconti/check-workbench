@@ -1,0 +1,1583 @@
+{
+  "data": {
+    "team": {
+      "projects": {
+        "edges": [
+          {
+            "node": {
+              "title": "Project 1",
+              "project_medias": {
+                "edges": [
+                  {
+                    "node": {
+                      "created_at": "1542763993",
+                      "report_type": "uploadedimage",
+                      "metadata": "{\"title\":\"ali-shaath.jpg\",\"description\":\"\",\"picture\":\"http://localhost:3000/uploads/uploaded_image/15/ali-shaath.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/66\",\"oembed_url\":\"http://localhost:3000/api/project_medias/66/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/66\"}",
+                      "last_status": "in_progress",
+                      "media": {
+                        "quote": null,
+                        "picture": "http://localhost:3000/uploads/uploaded_image/15/ali-shaath.jpg",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1542763994",
+                              "label": "Hullo? :heart:",
+                              "jsonoptions": "[{\"label\":\"One :heart:\"},{\"label\":\"Two :heart:\"}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1542763994",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1542763993",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1542764569",
+                              "content": "{\"text\":\"anjo\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541834228",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"Related :heart:\",\"description\":\"\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/13\",\"oembed_url\":\"http://localhost:3000/api/project_medias/13/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/13\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": "Related :heart:",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541834228",
+                              "label": "Hullo? :heart:",
+                              "jsonoptions": "[{\"label\":\"One :heart:\"},{\"label\":\"Two :heart:\"}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541834228",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541834228",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541834041",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"Claim :heart:\",\"description\":\"\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/12\",\"oembed_url\":\"http://localhost:3000/api/project_medias/12/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/12\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": "Claim :heart:",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541834041",
+                              "label": "Hullo? :heart:",
+                              "jsonoptions": "[{\"label\":\"One :heart:\"},{\"label\":\"Two :heart:\"}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541834041",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541834041",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541438947",
+                      "report_type": "link",
+                      "metadata": "{\"title\":\"“جيش مغاوير الثورة” و مخيم الركبان!\",\"description\":\":heart:\\nhttps://github.com\\n:wave:\",\"picture\":\"https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/11\",\"oembed_url\":\"http://localhost:3000/api/project_medias/11/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/11\"}",
+                      "last_status": "in_progress",
+                      "media": {
+                        "quote": null,
+                        "picture": "https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg",
+                        "url": "https://www.arabitoday.com/article/115453",
+                        "embed": {
+                          "published_at": "",
+                          "username": "Ivan",
+                          "title": "“جيش مغاوير الثورة” و مخيم الركبان!",
+                          "description": "اتهم ما يسمى برئيس المكتب الإعلامي في “الإدارة المدنية” لمخيم الركبان، “محمود الهميلي”، تنظيم “مغاوير الثورة” بالتقاعس عن تأمين المواد الغذائية ومساعدة النازحين في المخيم.المصدر : تلفزيون الخبروأضاف الهميلي، بحسب مواقع إعلامية “معارضة”، أنّ “إدارة ال",
+                          "picture": "https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg",
+                          "author_url": "https://www.arabitoday.com/article/author/ivan",
+                          "author_picture": "https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg",
+                          "author_name": "وكالة عربي اليوم الإخبارية",
+                          "screenshot": "",
+                          "raw": {
+                            "metatags": [
+                              {
+                                "charset": "UTF-8"
+                              },
+                              {
+                                "http-equiv": "X-UA-Compatible",
+                                "content": "IE=edge"
+                              },
+                              {
+                                "name": "viewport",
+                                "content": "width=device-width, initial-scale=1.0"
+                              },
+                              {
+                                "property": "og:locale",
+                                "content": "ar"
+                              },
+                              {
+                                "property": "og:site_name",
+                                "content": "وكالة عربي اليوم الإخبارية"
+                              },
+                              {
+                                "property": "og:url",
+                                "content": "https://www.arabitoday.com/article/115453"
+                              },
+                              {
+                                "property": "og:title",
+                                "content": "“جيش مغاوير الثورة” و مخيم الركبان!"
+                              },
+                              {
+                                "property": "og:image",
+                                "content": "https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg"
+                              },
+                              {
+                                "property": "article:section",
+                                "content": "الشأن السوري"
+                              },
+                              {
+                                "property": "og:description",
+                                "content": "اتهم ما يسمى برئيس المكتب الإعلامي في “الإدارة المدنية” لمخيم الركبان، “محمود الهميلي”، تنظيم “مغاوير الثورة” بالتقاعس عن تأمين المواد الغذائية ومساعدة النازحين في المخيم.المصدر : تلفزيون الخبروأضاف الهميلي، بحسب مواقع إعلامية “معارضة”، أنّ “إدارة ال"
+                              },
+                              {
+                                "property": "og:type",
+                                "content": "article"
+                              },
+                              {
+                                "name": "twitter:card",
+                                "content": "summary"
+                              },
+                              {
+                                "name": "twitter:url",
+                                "content": "https://www.arabitoday.com/article/115453"
+                              },
+                              {
+                                "name": "twitter:title",
+                                "content": "“جيش مغاوير الثورة” و مخيم الركبان!"
+                              },
+                              {
+                                "name": "twitter:description",
+                                "content": "اتهم ما يسمى برئيس المكتب الإعلامي في “الإدارة المدنية” لمخيم الركبان، “محمود الهميلي”، تنظيم “مغاوير الثورة” بالتقاعس عن تأمين المواد الغذائية ومساعدة النازحين في المخيم.المصدر : تلفزيون الخبروأضاف الهميلي، بحسب مواقع إعلامية “معارضة”، أنّ “إدارة ال"
+                              },
+                              {
+                                "name": "twitter:image",
+                                "content": "https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg"
+                              },
+                              {
+                                "name": "generator",
+                                "content": "WordPress 4.9.8"
+                              },
+                              {
+                                "property": "fb:pages",
+                                "content": "1151462968330607"
+                              },
+                              {
+                                "property": "ia:markup_url",
+                                "content": "https://www.arabitoday.com/article/115453?ia_markup=1"
+                              },
+                              {
+                                "property": "fb:app_id",
+                                "content": "164226204319913"
+                              },
+                              {
+                                "name": "generator",
+                                "content": "Powered by WPBakery Page Builder - drag and drop page builder for WordPress."
+                              },
+                              {
+                                "name": "numberOfItems",
+                                "content": "3"
+                              },
+                              {
+                                "name": "itemListOrder",
+                                "content": "Ascending"
+                              },
+                              {
+                                "itemprop": "position",
+                                "content": "1"
+                              },
+                              {
+                                "itemprop": "position",
+                                "content": "2"
+                              },
+                              {
+                                "itemprop": "position",
+                                "content": "3"
+                              },
+                              {
+                                "itemprop": "item",
+                                "content": "https://www.arabitoday.com/article/115453"
+                              },
+                              {
+                                "http-equiv": "refresh",
+                                "content": "0;url=https://www.arabitoday.com/contact"
+                              }
+                            ],
+                            "json+ld": {
+                              "@context": "http://schema.org/",
+                              "@type": "organization",
+                              "@id": "#organization",
+                              "logo": {
+                                "@type": "ImageObject",
+                                "url": "https://www.arabitoday.com/wp-content/uploads/2017/08/1212121.png"
+                              },
+                              "url": "https://www.arabitoday.com/",
+                              "name": "وكالة عربي اليوم الإخبارية",
+                              "description": "نحن وسيلة إعلامية اخبارية اجتماعية مستقلة مقرها سوريا – دمشق هدفنا إيصال الخبر و الحقيقة الى الجمهور في سوريا و الوطن العربي, حيث نعنى بالأخبار المحلية و العربية والدولية من سياسة واقتصاد و رياضة وفن وجميع ما قد يهم المتابع السوري و العربي و فيه فائدة له. طاقمنا الإعلامي مؤلف من مجموعة كبيرة من الصحفيين و المراسلين الميدانيين حيث يهمنا أن ننقل لكم الأحداث لحظة بلحظة."
+                            },
+                            "oembed": {
+                              "version": "1.0",
+                              "provider_name": "وكالة عربي اليوم الإخبارية",
+                              "provider_url": "https://www.arabitoday.com",
+                              "author_name": "Ivan",
+                              "author_url": "https://www.arabitoday.com/article/author/ivan",
+                              "title": "“جيش مغاوير الثورة” و مخيم الركبان!",
+                              "type": "rich",
+                              "width": 600,
+                              "height": 338,
+                              "html": "<blockquote class=\"wp-embedded-content\"><a href=\"https://www.arabitoday.com/article/115453\">“جيش مغاوير الثورة” و مخيم الركبان!</a></blockquote>\n<script type='text/javascript'>\n<!--//--><![CDATA[//><!--\n\t\t!function(a,b){\"use strict\";function c(){if(!e){e=!0;var a,c,d,f,g=-1!==navigator.appVersion.indexOf(\"MSIE 10\"),h=!!navigator.userAgent.match(/Trident.*rv:11\\./),i=b.querySelectorAll(\"iframe.wp-embedded-content\");for(c=0;c<i.length;c++){if(d=i[c],!d.getAttribute(\"data-secret\"))f=Math.random().toString(36).substr(2,10),d.src+=\"#?secret=\"+f,d.setAttribute(\"data-secret\",f);if(g||h)a=d.cloneNode(!0),a.removeAttribute(\"security\"),d.parentNode.replaceChild(a,d)}}}var d=!1,e=!1;if(b.querySelector)if(a.addEventListener)d=!0;if(a.wp=a.wp||{},!a.wp.receiveEmbedMessage)if(a.wp.receiveEmbedMessage=function(c){var d=c.data;if(d.secret||d.message||d.value)if(!/[^a-zA-Z0-9]/.test(d.secret)){var e,f,g,h,i,j=b.querySelectorAll('iframe[data-secret=\"'+d.secret+'\"]'),k=b.querySelectorAll('blockquote[data-secret=\"'+d.secret+'\"]');for(e=0;e<k.length;e++)k[e].style.display=\"none\";for(e=0;e<j.length;e++)if(f=j[e],c.source===f.contentWindow){if(f.removeAttribute(\"style\"),\"height\"===d.message){if(g=parseInt(d.value,10),g>1e3)g=1e3;else if(~~g<200)g=200;f.height=g}if(\"link\"===d.message)if(h=b.createElement(\"a\"),i=b.createElement(\"a\"),h.href=f.getAttribute(\"src\"),i.href=d.value,i.host===h.host)if(b.activeElement===f)a.top.location.href=d.value}else;}},d)a.addEventListener(\"message\",a.wp.receiveEmbedMessage,!1),b.addEventListener(\"DOMContentLoaded\",c,!1),a.addEventListener(\"load\",c,!1)}(window,document);\n//--><!]]>\n</script><iframe sandbox=\"allow-scripts\" security=\"restricted\" src=\"https://www.arabitoday.com/article/115453/embed\" width=\"600\" height=\"338\" title=\"&#8220;“جيش مغاوير الثورة” و مخيم الركبان!&#8221; &#8212; وكالة عربي اليوم الإخبارية\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" class=\"wp-embedded-content\"></iframe>",
+                              "thumbnail_url": "https://www.arabitoday.com/wp-content/uploads/2018/10/1014213660.jpg",
+                              "thumbnail_width": 600,
+                              "thumbnail_height": 325
+                            }
+                          },
+                          "archives": {
+                            "archive_is": {
+                              "location": "http://archive.is/njxEB",
+                              "url": "https://www.arabitoday.com/article/115453",
+                              "type": "archive_is"
+                            },
+                            "archive_org": {
+                              "location": "https://web.archive.org/web/20181105172937/https://www.arabitoday.com/article/115453",
+                              "url": "https://www.arabitoday.com/article/115453",
+                              "type": "archive_org"
+                            }
+                          },
+                          "url": "https://www.arabitoday.com/article/115453",
+                          "provider": "page",
+                          "type": "archive_org",
+                          "parsed_at": "2018-11-05T17:29:05.364+00:00",
+                          "favicon": "https://www.google.com/s2/favicons?domain_url=www.arabitoday.com/article/115453",
+                          "schema": {
+                            "WPHeader": [
+                              {
+                                "url": "https://www.arabitoday.com/",
+                                "@type": "WPHeader",
+                                "@context": "http://schema.org"
+                              }
+                            ],
+                            "SiteNavigationElement": [
+                              {
+                                "@type": "SiteNavigationElement",
+                                "@context": "http://schema.org"
+                              },
+                              {
+                                "@type": "SiteNavigationElement",
+                                "@context": "http://schema.org"
+                              },
+                              {
+                                "@type": "SiteNavigationElement",
+                                "@context": "http://schema.org"
+                              }
+                            ],
+                            "BreadcrumbList": [
+                              {
+                                "itemListElement": [
+                                  {
+                                    "type": "http://schema.org/ListItem",
+                                    "properties": {
+                                      "item": [
+                                        "https://www.arabitoday.com"
+                                      ],
+                                      "name": [
+                                        "الرئيسية"
+                                      ],
+                                      "position": [
+                                        "1"
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "http://schema.org/ListItem",
+                                    "properties": {
+                                      "item": [
+                                        "https://www.arabitoday.com/article/category/syrian"
+                                      ],
+                                      "name": [
+                                        "الشأن السوري"
+                                      ],
+                                      "position": [
+                                        "2"
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "http://schema.org/ListItem",
+                                    "properties": {
+                                      "name": [
+                                        "“جيش مغاوير الثورة” و مخيم الركبان!"
+                                      ],
+                                      "position": [
+                                        "3"
+                                      ],
+                                      "item": [
+                                        "https://www.arabitoday.com/article/115453"
+                                      ]
+                                    }
+                                  }
+                                ],
+                                "@type": "BreadcrumbList",
+                                "@context": "http://schema.org"
+                              }
+                            ],
+                            "WPAdBlock": [
+                              {
+                                "@type": "WPAdBlock",
+                                "@context": "http://schema.org"
+                              },
+                              {
+                                "@type": "WPAdBlock",
+                                "@context": "http://schema.org"
+                              },
+                              {
+                                "@type": "WPAdBlock",
+                                "@context": "http://schema.org"
+                              }
+                            ],
+                            "WPSideBar": [
+                              {
+                                "@type": "WPSideBar",
+                                "@context": "http://schema.org"
+                              }
+                            ],
+                            "Question": [
+                              {
+                                "name": "هل ينجو ابن سلمان من جريمة مقتل \"الخاشقجي\" أم يتم عزله؟",
+                                "suggestedAnswer": [
+                                  {
+                                    "type": "http://schema.org/Answer",
+                                    "properties": {
+                                      "text": [
+                                        "يتم عزله"
+                                      ]
+                                    }
+                                  },
+                                  {
+                                    "type": "http://schema.org/Answer",
+                                    "properties": {
+                                      "text": [
+                                        "يبقى بمنصبه"
+                                      ]
+                                    }
+                                  }
+                                ],
+                                "@type": "Question",
+                                "@context": "http://schema.org"
+                              }
+                            ]
+                          },
+                          "html": "<blockquote class=\"wp-embedded-content\"><a href=\"https://www.arabitoday.com/article/115453\">“جيش مغاوير الثورة” و مخيم الركبان!</a></blockquote>\n<script type='text/javascript'>\n<!--//--><![CDATA[//><!--\n\t\t!function(a,b){\"use strict\";function c(){if(!e){e=!0;var a,c,d,f,g=-1!==navigator.appVersion.indexOf(\"MSIE 10\"),h=!!navigator.userAgent.match(/Trident.*rv:11\\./),i=b.querySelectorAll(\"iframe.wp-embedded-content\");for(c=0;c<i.length;c++){if(d=i[c],!d.getAttribute(\"data-secret\"))f=Math.random().toString(36).substr(2,10),d.src+=\"#?secret=\"+f,d.setAttribute(\"data-secret\",f);if(g||h)a=d.cloneNode(!0),a.removeAttribute(\"security\"),d.parentNode.replaceChild(a,d)}}}var d=!1,e=!1;if(b.querySelector)if(a.addEventListener)d=!0;if(a.wp=a.wp||{},!a.wp.receiveEmbedMessage)if(a.wp.receiveEmbedMessage=function(c){var d=c.data;if(d.secret||d.message||d.value)if(!/[^a-zA-Z0-9]/.test(d.secret)){var e,f,g,h,i,j=b.querySelectorAll('iframe[data-secret=\"'+d.secret+'\"]'),k=b.querySelectorAll('blockquote[data-secret=\"'+d.secret+'\"]');for(e=0;e<k.length;e++)k[e].style.display=\"none\";for(e=0;e<j.length;e++)if(f=j[e],c.source===f.contentWindow){if(f.removeAttribute(\"style\"),\"height\"===d.message){if(g=parseInt(d.value,10),g>1e3)g=1e3;else if(~~g<200)g=200;f.height=g}if(\"link\"===d.message)if(h=b.createElement(\"a\"),i=b.createElement(\"a\"),h.href=f.getAttribute(\"src\"),i.href=d.value,i.host===h.host)if(b.activeElement===f)a.top.location.href=d.value}else;}},d)a.addEventListener(\"message\",a.wp.receiveEmbedMessage,!1),b.addEventListener(\"DOMContentLoaded\",c,!1),a.addEventListener(\"load\",c,!1)}(window,document);\n//--><!]]>\n</script><iframe sandbox=\"allow-scripts\" security=\"restricted\" src=\"https://www.arabitoday.com/article/115453/embed\" width=\"600\" height=\"338\" title=\"&#8220;“جيش مغاوير الثورة” و مخيم الركبان!&#8221; &#8212; وكالة عربي اليوم الإخبارية\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\" class=\"wp-embedded-content\"></iframe>",
+                          "embed_tag": "<script src=\"http://pender:3200/api/medias.js?url=https%3A%2F%2Fwww.arabitoday.com%2Farticle%2F115453\" type=\"text/javascript\"></script>",
+                          "refreshes_count": 1,
+                          "location": "https://web.archive.org/web/20181105172937/https://www.arabitoday.com/article/115453"
+                        }
+                      },
+                      "tags": {
+                        "edges": [
+                          {
+                            "node": {
+                              "tag_text": "Healer"
+                            }
+                          },
+                          {
+                            "node": {
+                              "tag_text": "Jazz"
+                            }
+                          }
+                        ]
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541438947",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1541718293",
+                                "content": "[{\"id\":115,\"annotation_id\":152,\"field_name\":\"response_multiple_choice\",\"annotation_type\":\"task_response_multiple_choice\",\"field_type\":\"select\",\"value\":\"{\\\"other\\\":\\\":heart:\\\\nsssdd\\\"}\",\"created_at\":\"2018-11-08T23:04:53.942Z\",\"updated_at\":\"2018-11-08T23:58:17.134Z\",\"formatted_value\":\":heart:\\nsssdd\"},{\"id\":117,\"annotation_id\":152,\"field_name\":\"task_multiple_choice\",\"annotation_type\":\"task_response_multiple_choice\",\"field_type\":\"task_reference\",\"value\":\"136\",\"created_at\":\"2018-11-08T23:04:53.980Z\",\"updated_at\":\"2018-11-08T23:04:53.980Z\",\"formatted_value\":\"136\"},{\"id\":116,\"annotation_id\":152,\"field_name\":\"note_multiple_choice\",\"annotation_type\":\"task_response_multiple_choice\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-11-08T23:04:53.964Z\",\"updated_at\":\"2018-11-08T23:04:53.964Z\",\"formatted_value\":\"\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541438947",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1541633120",
+                                "content": "[{\"id\":114,\"annotation_id\":150,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"134\",\"created_at\":\"2018-11-07T23:25:20.445Z\",\"updated_at\":\"2018-11-07T23:25:20.445Z\",\"formatted_value\":\"134\"},{\"id\":113,\"annotation_id\":150,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-11-07T23:25:20.430Z\",\"updated_at\":\"2018-11-07T23:25:20.430Z\",\"formatted_value\":\"\"},{\"id\":112,\"annotation_id\":150,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\":heart:\",\"created_at\":\"2018-11-07T23:25:20.413Z\",\"updated_at\":\"2018-11-07T23:25:20.413Z\",\"formatted_value\":\":heart:\"}]"
+                              },
+                              "log": {
+                                "edges": [
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1541796225",
+                                        "content": "{\"text\":\"bonyour\\n:heart:\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541720604",
+                              "content": "{\"text\":\"ahlan:heart:bye\\nenore:wave:une fois\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541633035",
+                              "content": "{\"text\":\":heart::dancers:\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541633024",
+                              "content": "{\"text\":\":heart: :dancers:\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541632191",
+                              "content": "{\"text\":\"hello :pray:\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541632142",
+                              "content": "{\"text\":\":pray:\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541277428",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"https://github.com :heart: whatz aboutz this?\",\"description\":\"uma descrição :heart:\\nem dois linhas\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/10\",\"oembed_url\":\"http://localhost:3000/api/project_medias/10/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/10\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": "https://github.com\nwhatz aboutz this?",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541277428",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541277428",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541024838",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"tout foire\",\"description\":\"\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/9\",\"oembed_url\":\"http://localhost:3000/api/project_medias/9/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/9\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": "tout foire",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541024838",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541024838",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541024494",
+                      "report_type": "link",
+                      "metadata": "{\"title\":\"Tommy Guerrero - Road to Knowhere [Full Album]\",\"description\":\"1. I :heart: U \\n2. https://github.com\\n3. bye!\",\"picture\":\"https://i.ytimg.com/vi/N0LZ20ppkNo/default.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/8\",\"oembed_url\":\"http://localhost:3000/api/project_medias/8/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/8\"}",
+                      "last_status": "in_progress",
+                      "media": {
+                        "quote": null,
+                        "picture": "https://i.ytimg.com/vi/N0LZ20ppkNo/default.jpg",
+                        "url": "https://www.youtube.com/watch?v=N0LZ20ppkNo",
+                        "embed": {
+                          "published_at": "2018-10-30T08:00:00.000Z",
+                          "username": "ProvocativeEducative !",
+                          "title": "Tommy Guerrero - Road to Knowhere [Full Album]",
+                          "description": "Support the artist by purchasing the record here:\nhttps://tommy-guerrero-too-good.bandcamp.com/album/road-to-knowhere\n\nTracklist:\n1.El Camino Negro  \n2.White Sands  \n3.Highway Hustle \n4.Los Padres  \n5.Headin' West  \n6.Silent Miles  \n7.Heat in the Streets \n8.Sidewalk Soul  \n9.Slow Roll  \n10.Postcard Home  \n11.A Distant Closeness  \n12.Where Water Once Was  \n13.The Endless Road",
+                          "picture": "https://i.ytimg.com/vi/N0LZ20ppkNo/default.jpg",
+                          "author_url": "https://www.youtube.com/channel/UCR_SZLwuBGg9Vpl_HNihCdA",
+                          "author_picture": "https://yt3.ggpht.com/a-/AN66SAwmyzXFyMOSsJkV84wkuqZz4qywgPDKU7PwXA=s88-mo-c-c0xffffffff-rj-k-no",
+                          "author_name": "ProvocativeEducative !",
+                          "screenshot": "",
+                          "raw": {
+                            "metatags": [
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Media Capabilities",
+                                "data-expires": "2018-04-12",
+                                "content": "AjLq5uNF7MpG/eM34tWcJD3h8yZY1Q72ckfwdKbUNKGtUNaZkrw55eq2tI60vG0IlsCNw33W9WmuV113EAsdHAwAAABpeyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJNZWRpYUNhcGFiaWxpdGllcyIsImV4cGlyeSI6MTUyMzQ5MTIwMCwiaXNTdWJkb21haW4iOnRydWV9"
+                              },
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Long Task Observer",
+                                "data-expires": "2017-04-17",
+                                "content": "AgXf9faUpH8YmYNhInb5nw8BxXZaT8pZlj3At6FUrcvdBzs0I8VxKDkfinT4bbXfPZX8lXKfjotQZrhFVnpzFwYAAABZeyJvcmlnaW4iOiJodHRwczovL3d3dy55b3V0dWJlLmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ1Rhc2tPYnNlcnZlciIsImV4cGlyeSI6MTQ5MjQ3MzYwMH0="
+                              }
+                            ],
+                            "api": {
+                              "description": "Support the artist by purchasing the record here:\nhttps://tommy-guerrero-too-good.bandcamp.com/album/road-to-knowhere\n\nTracklist:\n1.El Camino Negro  \n2.White Sands  \n3.Highway Hustle \n4.Los Padres  \n5.Headin' West  \n6.Silent Miles  \n7.Heat in the Streets \n8.Sidewalk Soul  \n9.Slow Roll  \n10.Postcard Home  \n11.A Distant Closeness  \n12.Where Water Once Was  \n13.The Endless Road",
+                              "title": "Tommy Guerrero - Road to Knowhere [Full Album]",
+                              "published_at": "2018-10-30T08:00:00.000Z",
+                              "thumbnail_url": "https://i.ytimg.com/vi/N0LZ20ppkNo/default.jpg",
+                              "embed_html": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/N0LZ20ppkNo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+                              "channel_title": "ProvocativeEducative !",
+                              "channel_id": "UCR_SZLwuBGg9Vpl_HNihCdA"
+                            },
+                            "oembed": {
+                              "author_url": "https://www.youtube.com/channel/UCR_SZLwuBGg9Vpl_HNihCdA",
+                              "version": "1.0",
+                              "author_name": "ProvocativeEducative !",
+                              "html": "<iframe width=\"459\" height=\"344\" src=\"https://www.youtube.com/embed/N0LZ20ppkNo?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+                              "height": 344,
+                              "provider_name": "YouTube",
+                              "width": 459,
+                              "thumbnail_url": "https://i.ytimg.com/vi/N0LZ20ppkNo/hqdefault.jpg",
+                              "provider_url": "https://www.youtube.com/",
+                              "thumbnail_height": 360,
+                              "type": "video",
+                              "title": "Tommy Guerrero - Road to Knowhere [Full Album]",
+                              "thumbnail_width": 480
+                            }
+                          },
+                          "archives": {
+                            "archive_org": {
+                              "location": "https://web.archive.org/web/20181031222201/https://www.youtube.com/watch?v=N0LZ20ppkNo",
+                              "url": "https://www.youtube.com/watch?v=N0LZ20ppkNo",
+                              "type": "archive_org"
+                            },
+                            "archive_is": {
+                              "location": "http://archive.is/HN4IK",
+                              "url": "https://www.youtube.com/watch?v=N0LZ20ppkNo",
+                              "type": "archive_is"
+                            }
+                          },
+                          "url": "https://www.youtube.com/watch?v=N0LZ20ppkNo",
+                          "provider": "youtube",
+                          "type": "archive_is",
+                          "parsed_at": "2018-10-31T22:21:31.674+00:00",
+                          "favicon": "https://www.google.com/s2/favicons?domain_url=www.youtube.com/watch?v=N0LZ20ppkNo",
+                          "html": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/N0LZ20ppkNo\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+                          "embed_tag": "<script src=\"http://pender:3200/api/medias.js?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN0LZ20ppkNo\" type=\"text/javascript\"></script>",
+                          "refreshes_count": 1,
+                          "location": "http://archive.is/HN4IK"
+                        }
+                      },
+                      "tags": {
+                        "edges": [
+                          {
+                            "node": {
+                              "tag_text": "Jazz"
+                            }
+                          }
+                        ]
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541367795",
+                              "label": "when?",
+                              "jsonoptions": "[]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": [
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1541367814",
+                                        "content": "{\"text\":\"bien sur :thinking:\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  },
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1541367838",
+                                        "content": "{\"text\":\":thinking_face:\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  },
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1541367847",
+                                        "content": "{\"text\":\":angryL\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  },
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1541367857",
+                                        "content": "{\"text\":\":angry:\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541367400",
+                              "label": "here :pray: ?",
+                              "jsonoptions": "[]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1541367446",
+                                "content": "[{\"id\":102,\"annotation_id\":124,\"field_name\":\"task_geolocation\",\"annotation_type\":\"task_response_geolocation\",\"field_type\":\"task_reference\",\"value\":\"122\",\"created_at\":\"2018-11-04T21:37:26.170Z\",\"updated_at\":\"2018-11-04T21:37:26.170Z\",\"formatted_value\":\"122\"},{\"id\":101,\"annotation_id\":124,\"field_name\":\"response_geolocation\",\"annotation_type\":\"task_response_geolocation\",\"field_type\":\"geojson\",\"value\":\"{\\\"type\\\":\\\"Feature\\\",\\\"geometry\\\":{\\\"type\\\":\\\"Point\\\",\\\"coordinates\\\":[49.2608724,-123.1139529]},\\\"properties\\\":{\\\"name\\\":\\\"Vancouver, BC, Canada :smile:\\\"}}\",\"created_at\":\"2018-11-04T21:37:26.155Z\",\"updated_at\":\"2018-11-04T21:37:26.155Z\",\"formatted_value\":\"Vancouver, BC, Canada :smile: (49.2608724, -123.1139529)\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541367347",
+                              "label": "Another try",
+                              "jsonoptions": "[{\"label\":\"One :heart:\"},{\"label\":\"Two :heart: :blue_heart:\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1541367361",
+                                "content": "[{\"id\":99,\"annotation_id\":121,\"field_name\":\"task_single_choice\",\"annotation_type\":\"task_response_single_choice\",\"field_type\":\"task_reference\",\"value\":\"119\",\"created_at\":\"2018-11-04T21:36:01.830Z\",\"updated_at\":\"2018-11-04T21:36:01.830Z\",\"formatted_value\":\"119\"},{\"id\":98,\"annotation_id\":121,\"field_name\":\"note_single_choice\",\"annotation_type\":\"task_response_single_choice\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-11-04T21:36:01.814Z\",\"updated_at\":\"2018-11-04T21:36:01.814Z\",\"formatted_value\":\"\"},{\"id\":97,\"annotation_id\":121,\"field_name\":\"response_single_choice\",\"annotation_type\":\"task_response_single_choice\",\"field_type\":\"select\",\"value\":\"trying other :pray:\",\"created_at\":\"2018-11-04T21:36:01.798Z\",\"updated_at\":\"2018-11-04T21:36:01.798Z\",\"formatted_value\":\"trying other :pray:\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541024494",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1541366331",
+                                "content": "[{\"id\":94,\"annotation_id\":115,\"field_name\":\"task_multiple_choice\",\"annotation_type\":\"task_response_multiple_choice\",\"field_type\":\"task_reference\",\"value\":\"86\",\"created_at\":\"2018-11-04T21:18:51.333Z\",\"updated_at\":\"2018-11-04T21:18:51.333Z\",\"formatted_value\":\"86\"},{\"id\":93,\"annotation_id\":115,\"field_name\":\"note_multiple_choice\",\"annotation_type\":\"task_response_multiple_choice\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-11-04T21:18:51.320Z\",\"updated_at\":\"2018-11-04T21:18:51.320Z\",\"formatted_value\":\"\"},{\"id\":92,\"annotation_id\":115,\"field_name\":\"response_multiple_choice\",\"annotation_type\":\"task_response_multiple_choice\",\"field_type\":\"select\",\"value\":\"{\\\"other\\\":\\\":heart: ?\\\"}\",\"created_at\":\"2018-11-04T21:18:51.298Z\",\"updated_at\":\"2018-11-04T21:18:51.298Z\",\"formatted_value\":\":heart: ?\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541024494",
+                              "label": "Why :heart: ?",
+                              "jsonoptions": "null",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1541276677",
+                                "content": "[{\"id\":83,\"annotation_id\":102,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"https://github.com/\\nthis is the way that we answer\",\"created_at\":\"2018-11-03T20:24:37.303Z\",\"updated_at\":\"2018-11-03T20:46:56.992Z\",\"formatted_value\":\"https://github.com/\\nthis is the way that we answer\"},{\"id\":85,\"annotation_id\":102,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"84\",\"created_at\":\"2018-11-03T20:24:37.341Z\",\"updated_at\":\"2018-11-03T20:24:37.341Z\",\"formatted_value\":\"84\"},{\"id\":84,\"annotation_id\":102,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-11-03T20:24:37.326Z\",\"updated_at\":\"2018-11-03T20:24:37.326Z\",\"formatted_value\":\"\"}]"
+                              },
+                              "log": {
+                                "edges": [
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1541276683",
+                                        "content": "{\"text\":\"https://github.com/\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541366754",
+                              "content": "{\"text\":\":one:\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541285693",
+                              "content": "{\"text\":\":dancers:\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541279703",
+                              "content": "{\"text\":\":heart:\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541276670",
+                              "content": "{\"text\":\"https://github.com/\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541024462",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"What about this?\",\"description\":\"\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/7\",\"oembed_url\":\"http://localhost:3000/api/project_medias/7/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/7\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": "What about this?",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541024462",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541024462",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1541024423",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"Bullshitz\",\"description\":\"\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/6\",\"oembed_url\":\"http://localhost:3000/api/project_medias/6/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/6\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": "Bullshitz",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1541024423",
+                              "label": "Which?",
+                              "jsonoptions": "[{\"label\":\"Option One\"},{\"label\":\"Opção dois\"},{\"label\":\"Other\",\"other\":true}]",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1541024423",
+                              "label": "Why",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1540341134",
+                      "report_type": "link",
+                      "metadata": "{\"title\":\"Time Traveler (Live Band sesh) - KNOWER\",\"description\":\"FOLLOW KNOWER: https://www.facebook.com/KNOWERmusic\\nBUY THIS TRACK: http://smarturl.it/knower-time-traveler\\nHere's the original: https://www.youtube.com/watch?v=itRWssMSuvw\\nTOUR DATES: http://www.facebook.com/pg/KNOWERmusic/events/\\n\\nrecorded at some guys house july 2017. Searing hot. Louis Cole - Drums, Genevieve Artadi - singing \\nwith... \\nRai Thistlethwayte - keyboard, Sam Wilkes - bass, Sam Gendel - saxophone\\n\\nfilmed by Daniel Sunshine\",\"picture\":\"https://i.ytimg.com/vi/yhtcG79kPNw/default.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/5\",\"oembed_url\":\"http://localhost:3000/api/project_medias/5/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/5\"}",
+                      "last_status": "false",
+                      "media": {
+                        "quote": null,
+                        "picture": "https://i.ytimg.com/vi/yhtcG79kPNw/default.jpg",
+                        "url": "https://www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be",
+                        "embed": {
+                          "published_at": "2017-12-01T15:39:53.000Z",
+                          "username": "KNOWER MUSIC",
+                          "title": "Time Traveler (Live Band sesh) - KNOWER",
+                          "description": "FOLLOW KNOWER: https://www.facebook.com/KNOWERmusic\nBUY THIS TRACK: http://smarturl.it/knower-time-traveler\nHere's the original: https://www.youtube.com/watch?v=itRWssMSuvw\nTOUR DATES: http://www.facebook.com/pg/KNOWERmusic/events/\n\nrecorded at some guys house july 2017. Searing hot. Louis Cole - Drums, Genevieve Artadi - singing \nwith... \nRai Thistlethwayte - keyboard, Sam Wilkes - bass, Sam Gendel - saxophone\n\nfilmed by Daniel Sunshine",
+                          "picture": "https://i.ytimg.com/vi/yhtcG79kPNw/default.jpg",
+                          "author_url": "https://www.youtube.com/channel/UCaEKhXcW7dY65JoQB6fGhxg",
+                          "author_picture": "https://yt3.ggpht.com/a-/AN66SAyuLtNrVaSlEzckI5JSLAoIOXgkyLVIm6gqWQ=s88-mo-c-c0xffffffff-rj-k-no",
+                          "author_name": "KNOWER MUSIC",
+                          "screenshot": "",
+                          "raw": {
+                            "metatags": [
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Media Capabilities",
+                                "data-expires": "2018-04-12",
+                                "content": "AjLq5uNF7MpG/eM34tWcJD3h8yZY1Q72ckfwdKbUNKGtUNaZkrw55eq2tI60vG0IlsCNw33W9WmuV113EAsdHAwAAABpeyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJNZWRpYUNhcGFiaWxpdGllcyIsImV4cGlyeSI6MTUyMzQ5MTIwMCwiaXNTdWJkb21haW4iOnRydWV9"
+                              },
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Long Task Observer",
+                                "data-expires": "2017-04-17",
+                                "content": "AgXf9faUpH8YmYNhInb5nw8BxXZaT8pZlj3At6FUrcvdBzs0I8VxKDkfinT4bbXfPZX8lXKfjotQZrhFVnpzFwYAAABZeyJvcmlnaW4iOiJodHRwczovL3d3dy55b3V0dWJlLmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ1Rhc2tPYnNlcnZlciIsImV4cGlyeSI6MTQ5MjQ3MzYwMH0="
+                              }
+                            ],
+                            "api": {
+                              "description": "FOLLOW KNOWER: https://www.facebook.com/KNOWERmusic\nBUY THIS TRACK: http://smarturl.it/knower-time-traveler\nHere's the original: https://www.youtube.com/watch?v=itRWssMSuvw\nTOUR DATES: http://www.facebook.com/pg/KNOWERmusic/events/\n\nrecorded at some guys house july 2017. Searing hot. Louis Cole - Drums, Genevieve Artadi - singing \nwith... \nRai Thistlethwayte - keyboard, Sam Wilkes - bass, Sam Gendel - saxophone\n\nfilmed by Daniel Sunshine",
+                              "title": "Time Traveler (Live Band sesh) - KNOWER",
+                              "published_at": "2017-12-01T15:39:53.000Z",
+                              "thumbnail_url": "https://i.ytimg.com/vi/yhtcG79kPNw/default.jpg",
+                              "embed_html": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/yhtcG79kPNw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "channel_title": "KNOWER MUSIC",
+                              "channel_id": "UCaEKhXcW7dY65JoQB6fGhxg"
+                            },
+                            "oembed": {
+                              "thumbnail_width": 480,
+                              "title": "Time Traveler (Live Band sesh) - KNOWER",
+                              "type": "video",
+                              "height": 270,
+                              "provider_url": "https://www.youtube.com/",
+                              "width": 480,
+                              "thumbnail_height": 360,
+                              "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/yhtcG79kPNw?feature=oembed\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "provider_name": "YouTube",
+                              "version": "1.0",
+                              "author_name": "KNOWER MUSIC",
+                              "thumbnail_url": "https://i.ytimg.com/vi/yhtcG79kPNw/hqdefault.jpg",
+                              "author_url": "https://www.youtube.com/user/LOUISGENEVIEVE"
+                            }
+                          },
+                          "archives": {
+                            "archive_is": {
+                              "location": "http://archive.is/doL3j",
+                              "url": "https://www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be",
+                              "type": "archive_is"
+                            },
+                            "archive_org": {
+                              "location": "https://web.archive.org/web/20181024003233/https://www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be",
+                              "url": "https://www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be",
+                              "type": "archive_org"
+                            }
+                          },
+                          "url": "https://www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be",
+                          "provider": "youtube",
+                          "type": "archive_org",
+                          "parsed_at": "2018-10-24T00:32:11.371+00:00",
+                          "favicon": "https://www.google.com/s2/favicons?domain_url=www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be",
+                          "html": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/yhtcG79kPNw\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                          "embed_tag": "<script src=\"http://pender:3200/api/medias.js?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DyhtcG79kPNw%26feature%3Dyoutu.be\" type=\"text/javascript\"></script>",
+                          "refreshes_count": 1,
+                          "location": "https://web.archive.org/web/20181024003233/https://www.youtube.com/watch?v=yhtcG79kPNw&feature=youtu.be"
+                        }
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1540937713",
+                              "label": "Baden Powell",
+                              "jsonoptions": "[]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1540937725",
+                                "content": "[{\"id\":48,\"annotation_id\":63,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"61\",\"created_at\":\"2018-10-30T22:15:25.121Z\",\"updated_at\":\"2018-10-30T22:15:25.121Z\",\"formatted_value\":\"61\"},{\"id\":47,\"annotation_id\":63,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-10-30T22:15:25.100Z\",\"updated_at\":\"2018-10-30T22:15:25.100Z\",\"formatted_value\":\"\"},{\"id\":46,\"annotation_id\":63,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"is the best\",\"created_at\":\"2018-10-30T22:15:25.076Z\",\"updated_at\":\"2018-10-30T22:15:25.076Z\",\"formatted_value\":\"is the best\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1540935421",
+                              "label": "a7atein",
+                              "jsonoptions": "[]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1540937898",
+                                "content": "[{\"id\":51,\"annotation_id\":64,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"57\",\"created_at\":\"2018-10-30T22:18:18.113Z\",\"updated_at\":\"2018-10-30T22:18:18.113Z\",\"formatted_value\":\"57\"},{\"id\":50,\"annotation_id\":64,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-10-30T22:18:18.098Z\",\"updated_at\":\"2018-10-30T22:18:18.098Z\",\"formatted_value\":\"\"},{\"id\":49,\"annotation_id\":64,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"koftation\",\"created_at\":\"2018-10-30T22:18:18.078Z\",\"updated_at\":\"2018-10-30T22:18:18.078Z\",\"formatted_value\":\"koftation\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1540935295",
+                              "label": "a7a",
+                              "jsonoptions": "[]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1540938724",
+                                "content": "[{\"id\":54,\"annotation_id\":65,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"55\",\"created_at\":\"2018-10-30T22:32:04.700Z\",\"updated_at\":\"2018-10-30T22:32:04.700Z\",\"formatted_value\":\"55\"},{\"id\":53,\"annotation_id\":65,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-10-30T22:32:04.685Z\",\"updated_at\":\"2018-10-30T22:32:04.685Z\",\"formatted_value\":\"\"},{\"id\":52,\"annotation_id\":65,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"allez les bleus\",\"created_at\":\"2018-10-30T22:32:04.663Z\",\"updated_at\":\"2018-10-30T22:32:04.663Z\",\"formatted_value\":\"allez les bleus\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1540935153",
+                              "label": "Hello",
+                              "jsonoptions": "[]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1540937079",
+                                "content": "[{\"id\":44,\"annotation_id\":60,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"53\",\"created_at\":\"2018-10-30T22:04:39.535Z\",\"updated_at\":\"2018-10-30T22:04:39.535Z\",\"formatted_value\":\"53\"},{\"id\":43,\"annotation_id\":60,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-10-30T22:04:39.521Z\",\"updated_at\":\"2018-10-30T22:04:39.521Z\",\"formatted_value\":\"\"},{\"id\":42,\"annotation_id\":60,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"goodbye\",\"created_at\":\"2018-10-30T22:04:39.502Z\",\"updated_at\":\"2018-10-30T22:04:39.502Z\",\"formatted_value\":\"goodbye\"}]"
+                              },
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1540838806",
+                              "label": "Shakshoukla",
+                              "jsonoptions": "[]",
+                              "status": "resolved",
+                              "first_response": {
+                                "created_at": "1540935544",
+                                "content": "[{\"id\":41,\"annotation_id\":59,\"field_name\":\"task_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"task_reference\",\"value\":\"41\",\"created_at\":\"2018-10-30T21:39:04.719Z\",\"updated_at\":\"2018-10-30T21:39:04.719Z\",\"formatted_value\":\"41\"},{\"id\":40,\"annotation_id\":59,\"field_name\":\"note_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"\",\"created_at\":\"2018-10-30T21:39:04.704Z\",\"updated_at\":\"2018-10-30T21:39:04.704Z\",\"formatted_value\":\"\"},{\"id\":39,\"annotation_id\":59,\"field_name\":\"response_free_text\",\"annotation_type\":\"task_response_free_text\",\"field_type\":\"text\",\"value\":\"ةثقيث شمخقس\",\"created_at\":\"2018-10-30T21:39:04.684Z\",\"updated_at\":\"2018-10-30T21:39:04.684Z\",\"formatted_value\":\"ةثقيث شمخقس\"}]"
+                              },
+                              "log": {
+                                "edges": [
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1540838916",
+                                        "content": "{\"text\":\"et ça ??\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  },
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1540842838",
+                                        "content": "{\"text\":\"une autre note»\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  },
+                                  {
+                                    "node": {
+                                      "annotation": {
+                                        "created_at": "1540842906",
+                                        "content": "{\"text\":\"mange\"}"
+                                      },
+                                      "event_type": "create_comment"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1540842854",
+                              "content": "{\"text\":\"merde\"}"
+                            }
+                          },
+                          {
+                            "node": {
+                              "created_at": "1540838652",
+                              "content": "{\"text\":\"ça marche ?\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1540340614",
+                      "report_type": "link",
+                      "metadata": "{\"title\":\"Jawad Al Ali Yegilak Youm جواد العلى - يجيلك يوم\",\"description\":\"من  اروع اغانى للفنان السعودى جواد العلى\",\"picture\":\"https://i.ytimg.com/vi/kzx0N7h2fiI/default.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/4\",\"oembed_url\":\"http://localhost:3000/api/project_medias/4/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/4\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": null,
+                        "picture": "https://i.ytimg.com/vi/kzx0N7h2fiI/default.jpg",
+                        "url": "https://www.youtube.com/watch?v=kzx0N7h2fiI&feature=youtu.be",
+                        "embed": {
+                          "published_at": "2012-10-11T17:30:51.000Z",
+                          "username": "Rotana",
+                          "title": "Jawad Al Ali Yegilak Youm جواد العلى - يجيلك يوم",
+                          "description": "من  اروع اغانى للفنان السعودى جواد العلى",
+                          "picture": "https://i.ytimg.com/vi/kzx0N7h2fiI/default.jpg",
+                          "author_url": "https://www.youtube.com/channel/UCNhqvQMXIgRfjAGmxQqdNRw",
+                          "author_picture": "https://yt3.ggpht.com/a-/AN66SAx622JiX3uk7pGT61rcEw11h7D3GayTvZ5bGg=s88-mo-c-c0xffffffff-rj-k-no",
+                          "author_name": "Rotana",
+                          "screenshot": "",
+                          "raw": {
+                            "metatags": [
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Media Capabilities",
+                                "data-expires": "2018-04-12",
+                                "content": "AjLq5uNF7MpG/eM34tWcJD3h8yZY1Q72ckfwdKbUNKGtUNaZkrw55eq2tI60vG0IlsCNw33W9WmuV113EAsdHAwAAABpeyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJNZWRpYUNhcGFiaWxpdGllcyIsImV4cGlyeSI6MTUyMzQ5MTIwMCwiaXNTdWJkb21haW4iOnRydWV9"
+                              },
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Long Task Observer",
+                                "data-expires": "2017-04-17",
+                                "content": "AgXf9faUpH8YmYNhInb5nw8BxXZaT8pZlj3At6FUrcvdBzs0I8VxKDkfinT4bbXfPZX8lXKfjotQZrhFVnpzFwYAAABZeyJvcmlnaW4iOiJodHRwczovL3d3dy55b3V0dWJlLmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ1Rhc2tPYnNlcnZlciIsImV4cGlyeSI6MTQ5MjQ3MzYwMH0="
+                              }
+                            ],
+                            "api": {
+                              "description": "من  اروع اغانى للفنان السعودى جواد العلى",
+                              "title": "Jawad Al Ali Yegilak Youm جواد العلى - يجيلك يوم",
+                              "published_at": "2012-10-11T17:30:51.000Z",
+                              "thumbnail_url": "https://i.ytimg.com/vi/kzx0N7h2fiI/default.jpg",
+                              "embed_html": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/kzx0N7h2fiI\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "channel_title": "Rotana",
+                              "channel_id": "UCNhqvQMXIgRfjAGmxQqdNRw"
+                            },
+                            "oembed": {
+                              "author_url": "https://www.youtube.com/user/RotanaAudio",
+                              "title": "Jawad Al Ali Yegilak Youm جواد العلى - يجيلك يوم",
+                              "width": 459,
+                              "provider_name": "YouTube",
+                              "height": 344,
+                              "provider_url": "https://www.youtube.com/",
+                              "thumbnail_height": 360,
+                              "version": "1.0",
+                              "type": "video",
+                              "thumbnail_width": 480,
+                              "author_name": "Rotana",
+                              "thumbnail_url": "https://i.ytimg.com/vi/kzx0N7h2fiI/hqdefault.jpg",
+                              "html": "<iframe width=\"459\" height=\"344\" src=\"https://www.youtube.com/embed/kzx0N7h2fiI?feature=oembed\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+                            }
+                          },
+                          "archives": {
+                            "archive_org": {
+                              "location": "https://web.archive.org/web/20181024002349/https://www.youtube.com/watch?v=kzx0N7h2fiI&feature=youtu.be",
+                              "url": "https://www.youtube.com/watch?v=kzx0N7h2fiI&feature=youtu.be",
+                              "type": "archive_org"
+                            },
+                            "archive_is": {
+                              "location": "http://archive.is/vsvMy",
+                              "url": "https://www.youtube.com/watch?v=kzx0N7h2fiI&feature=youtu.be",
+                              "type": "archive_is"
+                            }
+                          },
+                          "url": "https://www.youtube.com/watch?v=kzx0N7h2fiI&feature=youtu.be",
+                          "provider": "youtube",
+                          "type": "archive_is",
+                          "parsed_at": "2018-10-24T00:23:23.939+00:00",
+                          "favicon": "https://www.google.com/s2/favicons?domain_url=www.youtube.com/watch?v=kzx0N7h2fiI&feature=youtu.be",
+                          "html": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/kzx0N7h2fiI\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                          "embed_tag": "<script src=\"http://pender:3200/api/medias.js?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dkzx0N7h2fiI%26feature%3Dyoutu.be\" type=\"text/javascript\"></script>",
+                          "refreshes_count": 1,
+                          "location": "http://archive.is/vsvMy"
+                        }
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": []
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1540339815",
+                      "report_type": "claim",
+                      "metadata": "{\"title\":\"bullshit\\nwalks\",\"description\":\"\",\"picture\":\"\",\"permalink\":\"http://localhost:3333/karim/project/1/media/3\",\"oembed_url\":\"http://localhost:3000/api/project_medias/3/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/3\"}",
+                      "last_status": "in_progress",
+                      "media": {
+                        "quote": "bullshit\nwalks",
+                        "picture": "",
+                        "url": null,
+                        "embed": null
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": []
+                      },
+                      "annotations": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1540340091",
+                              "content": "{\"text\":\"ay kalax\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1540339737",
+                      "report_type": "link",
+                      "metadata": "{\"title\":\"Miles Davis - In a Silent Way - 1969\",\"description\":\"Miles Davis - In a Silent Way - 1969\\n\\n01- Shhh / Peaceful\\n02- In a Silent Way / It's about That Time\\n\\nMiles Davis – trumpet, composer\\nWayne Shorter – soprano saxophone\\nJohn McLaughlin – electric guitar\\nChick Corea – electric piano\\nHerbie Hancock – electric piano\\nJoe Zawinul – organ, composer\\nDave Holland – double bass\\nTony Williams – drums\\n\\n\\nProducer – Teo Macero\\nOriginal Recording Engineer – Stan Tonkel\",\"picture\":\"https://i.ytimg.com/vi/lQKt7DTKyJU/default.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/2\",\"oembed_url\":\"http://localhost:3000/api/project_medias/2/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/2\"}",
+                      "last_status": "in_progress",
+                      "media": {
+                        "quote": null,
+                        "picture": "https://i.ytimg.com/vi/lQKt7DTKyJU/default.jpg",
+                        "url": "https://www.youtube.com/watch?v=lQKt7DTKyJU",
+                        "embed": {
+                          "published_at": "2015-08-15T21:05:35.000Z",
+                          "username": "André Azevedo",
+                          "title": "Miles Davis - In a Silent Way - 1969",
+                          "description": "Miles Davis - In a Silent Way - 1969\n\n01- Shhh / Peaceful\n02- In a Silent Way / It's about That Time\n\nMiles Davis – trumpet, composer\nWayne Shorter – soprano saxophone\nJohn McLaughlin – electric guitar\nChick Corea – electric piano\nHerbie Hancock – electric piano\nJoe Zawinul – organ, composer\nDave Holland – double bass\nTony Williams – drums\n\n\nProducer – Teo Macero\nOriginal Recording Engineer – Stan Tonkel",
+                          "picture": "https://i.ytimg.com/vi/lQKt7DTKyJU/default.jpg",
+                          "author_url": "https://www.youtube.com/channel/UCcy5XraMbx5iEfz_wmFtNHQ",
+                          "author_picture": "https://yt3.ggpht.com/a-/AN66SAzME3u-F5-lvxp02_ouwnnd6cETpVwfyN_bew=s88-mo-c-c0xffffffff-rj-k-no",
+                          "author_name": "André Azevedo",
+                          "screenshot": "",
+                          "raw": {
+                            "metatags": [
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Media Capabilities",
+                                "data-expires": "2018-04-12",
+                                "content": "AjLq5uNF7MpG/eM34tWcJD3h8yZY1Q72ckfwdKbUNKGtUNaZkrw55eq2tI60vG0IlsCNw33W9WmuV113EAsdHAwAAABpeyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJNZWRpYUNhcGFiaWxpdGllcyIsImV4cGlyeSI6MTUyMzQ5MTIwMCwiaXNTdWJkb21haW4iOnRydWV9"
+                              },
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Long Task Observer",
+                                "data-expires": "2017-04-17",
+                                "content": "AgXf9faUpH8YmYNhInb5nw8BxXZaT8pZlj3At6FUrcvdBzs0I8VxKDkfinT4bbXfPZX8lXKfjotQZrhFVnpzFwYAAABZeyJvcmlnaW4iOiJodHRwczovL3d3dy55b3V0dWJlLmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ1Rhc2tPYnNlcnZlciIsImV4cGlyeSI6MTQ5MjQ3MzYwMH0="
+                              }
+                            ],
+                            "api": {
+                              "description": "Miles Davis - In a Silent Way - 1969\n\n01- Shhh / Peaceful\n02- In a Silent Way / It's about That Time\n\nMiles Davis – trumpet, composer\nWayne Shorter – soprano saxophone\nJohn McLaughlin – electric guitar\nChick Corea – electric piano\nHerbie Hancock – electric piano\nJoe Zawinul – organ, composer\nDave Holland – double bass\nTony Williams – drums\n\n\nProducer – Teo Macero\nOriginal Recording Engineer – Stan Tonkel",
+                              "title": "Miles Davis - In a Silent Way - 1969",
+                              "published_at": "2015-08-15T21:05:35.000Z",
+                              "thumbnail_url": "https://i.ytimg.com/vi/lQKt7DTKyJU/default.jpg",
+                              "embed_html": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/lQKt7DTKyJU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "channel_title": "André Azevedo",
+                              "channel_id": "UCcy5XraMbx5iEfz_wmFtNHQ"
+                            },
+                            "oembed": {
+                              "thumbnail_width": 480,
+                              "title": "Miles Davis - In a Silent Way - 1969",
+                              "type": "video",
+                              "height": 344,
+                              "provider_url": "https://www.youtube.com/",
+                              "width": 459,
+                              "thumbnail_height": 360,
+                              "html": "<iframe width=\"459\" height=\"344\" src=\"https://www.youtube.com/embed/lQKt7DTKyJU?feature=oembed\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "provider_name": "YouTube",
+                              "version": "1.0",
+                              "author_name": "André Azevedo",
+                              "thumbnail_url": "https://i.ytimg.com/vi/lQKt7DTKyJU/hqdefault.jpg",
+                              "author_url": "https://www.youtube.com/user/andredeazevedo1"
+                            }
+                          },
+                          "archives": {
+                            "archive_org": {
+                              "location": "https://web.archive.org/web/20181024000911/https://www.youtube.com/watch?v=lQKt7DTKyJU",
+                              "url": "https://www.youtube.com/watch?v=lQKt7DTKyJU",
+                              "type": "archive_org"
+                            },
+                            "archive_is": {
+                              "location": "http://archive.is/G7ND0",
+                              "url": "https://www.youtube.com/watch?v=lQKt7DTKyJU",
+                              "type": "archive_is"
+                            }
+                          },
+                          "url": "https://www.youtube.com/watch?v=lQKt7DTKyJU",
+                          "provider": "youtube",
+                          "type": "archive_is",
+                          "parsed_at": "2018-10-24T00:08:54.102+00:00",
+                          "favicon": "https://www.google.com/s2/favicons?domain_url=www.youtube.com/watch?v=lQKt7DTKyJU",
+                          "html": "<iframe width=\"480\" height=\"360\" src=\"//www.youtube.com/embed/lQKt7DTKyJU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                          "embed_tag": "<script src=\"http://pender:3200/api/medias.js?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DlQKt7DTKyJU\" type=\"text/javascript\"></script>",
+                          "refreshes_count": 1,
+                          "location": "http://archive.is/G7ND0"
+                        }
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1540339790",
+                              "label": "task",
+                              "jsonoptions": "null",
+                              "status": "unresolved",
+                              "first_response": null,
+                              "log": {
+                                "edges": []
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      "annotations": {
+                        "edges": [
+                          {
+                            "node": {
+                              "created_at": "1540339764",
+                              "content": "{\"text\":\"note\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "created_at": "1540339675",
+                      "report_type": "link",
+                      "metadata": "{\"title\":\"Yussef Kamaal - Black Focus (Full Album Upload)\",\"description\":\"Vinyl/Digital/Stream: https://lnk.to/blackfocus\\nSubscribe to Brownswood: http://bit.ly/sub2Brownswood\\n\\nTracklist:\\n\\n00:00 1) Black Focus \\n04:34 2) Strings of Light \\n13:02 3) Remembrance \\n22:02 4) Yo Chavez\\n26:01 5) Ayla \\n26:47 6) O.G.\\n27:33 7) Lowrider\\n32:01 8) Mansur's Message\\n34:07 9) WingTai Drums \\n35:23 10) Joint 17\\n\\nYussef Kamaal are shaped by the sound of London. Growing up in the capital, they frame jazz within the bass-saturated, pirate radio broadcasts of the UK capital. The pair, made up of Yussef Dayes and Kamaal Williams (aka Henry Wu), have had little in the way of formal training. Instead, their musical tastes – and approach to playing – are indebted to Thelonious Monk’s piano as much as the drum programming of Kaidi Tatham.\\nclose info\\nYussef Kamaal are shaped by the sound of London. Growing up in the capital, they frame jazz within the bass-saturated, pirate radio broadcasts of the UK capital. The pair, made up of Yussef Dayes and Kamaal Williams (aka Henry Wu), have had little in the way of formal training. Instead, their musical tastes – and approach to playing – are indebted to Thelonious Monk’s piano as much as the drum programming of Kaidi Tatham.\\nBoth hail from South East London, crossing paths in 2007 as teenagers playing their first pub gigs around Peckham and Camberwell. Dayes drums for cosmically-inclined, afrobeat outfit United Vibrations, while Williams – on top of drumming and playing keys in different incarnations over the years – has made waves with his solo, synth-draped house 12″s for much-fêted labels like 22a and Rhythm Section.\\nBorn out of a one-off live session to perform Williams’ solo material for Boiler Room, it soon became a project in its own right. From rehearsing for that first show, it was clear to both that there was the possibility to do much more with the unspoken, telepathic grooves that unfolded. “It’s all about the drums and the keys,” Williams says. “That’s where it all originates from: the chords, the rhythm of the chords and the drums.” Coming together as Yussef Kamaal, they played a series of live shows where little more than a chord progression would be planned before taking to the stage.\\nFor the pair, the sound of the capital – with its hum of jungle, grime and broken beat – has shaped a self-taught, UK-tipped approach to playing jazz. Moving in the same circles but never playing together previously, rhythm underpins an innate musical understanding. Drawing influence from all corners of London’s shapeshifting musical make-up, their hotly anticipated debut album is due on Brownswood Recordings November 4th 2016. Titled Black Focus, its sound is distilled – or focused – down to the core interlock between drums and keys.\",\"picture\":\"https://i.ytimg.com/vi/4D8YPDdsxYU/default.jpg\",\"permalink\":\"http://localhost:3333/karim/project/1/media/1\",\"oembed_url\":\"http://localhost:3000/api/project_medias/1/oembed\",\"embed_url\":\"http://localhost:3200/api/medias.html?url=http://localhost:3333/karim/project/1/media/1\"}",
+                      "last_status": "undetermined",
+                      "media": {
+                        "quote": null,
+                        "picture": "https://i.ytimg.com/vi/4D8YPDdsxYU/default.jpg",
+                        "url": "https://www.youtube.com/watch?v=4D8YPDdsxYU",
+                        "embed": {
+                          "published_at": "2017-02-08T08:00:00.000Z",
+                          "username": "Brownswood Recordings",
+                          "title": "Yussef Kamaal - Black Focus (Full Album Upload)",
+                          "description": "Vinyl/Digital/Stream: https://lnk.to/blackfocus\nSubscribe to Brownswood: http://bit.ly/sub2Brownswood\n\nTracklist:\n\n00:00 1) Black Focus \n04:34 2) Strings of Light \n13:02 3) Remembrance \n22:02 4) Yo Chavez\n26:01 5) Ayla \n26:47 6) O.G.\n27:33 7) Lowrider\n32:01 8) Mansur's Message\n34:07 9) WingTai Drums \n35:23 10) Joint 17\n\nYussef Kamaal are shaped by the sound of London. Growing up in the capital, they frame jazz within the bass-saturated, pirate radio broadcasts of the UK capital. The pair, made up of Yussef Dayes and Kamaal Williams (aka Henry Wu), have had little in the way of formal training. Instead, their musical tastes – and approach to playing – are indebted to Thelonious Monk’s piano as much as the drum programming of Kaidi Tatham.\nclose info\nYussef Kamaal are shaped by the sound of London. Growing up in the capital, they frame jazz within the bass-saturated, pirate radio broadcasts of the UK capital. The pair, made up of Yussef Dayes and Kamaal Williams (aka Henry Wu), have had little in the way of formal training. Instead, their musical tastes – and approach to playing – are indebted to Thelonious Monk’s piano as much as the drum programming of Kaidi Tatham.\nBoth hail from South East London, crossing paths in 2007 as teenagers playing their first pub gigs around Peckham and Camberwell. Dayes drums for cosmically-inclined, afrobeat outfit United Vibrations, while Williams – on top of drumming and playing keys in different incarnations over the years – has made waves with his solo, synth-draped house 12″s for much-fêted labels like 22a and Rhythm Section.\nBorn out of a one-off live session to perform Williams’ solo material for Boiler Room, it soon became a project in its own right. From rehearsing for that first show, it was clear to both that there was the possibility to do much more with the unspoken, telepathic grooves that unfolded. “It’s all about the drums and the keys,” Williams says. “That’s where it all originates from: the chords, the rhythm of the chords and the drums.” Coming together as Yussef Kamaal, they played a series of live shows where little more than a chord progression would be planned before taking to the stage.\nFor the pair, the sound of the capital – with its hum of jungle, grime and broken beat – has shaped a self-taught, UK-tipped approach to playing jazz. Moving in the same circles but never playing together previously, rhythm underpins an innate musical understanding. Drawing influence from all corners of London’s shapeshifting musical make-up, their hotly anticipated debut album is due on Brownswood Recordings November 4th 2016. Titled Black Focus, its sound is distilled – or focused – down to the core interlock between drums and keys.",
+                          "picture": "https://i.ytimg.com/vi/4D8YPDdsxYU/default.jpg",
+                          "author_url": "https://www.youtube.com/channel/UC-dbAMT_ZkZlByJge49qlfA",
+                          "author_picture": "https://yt3.ggpht.com/a-/AN66SAxcxC0UCmfBzNwlhNrEqMm40TmSF_mdzb1MGw=s88-mo-c-c0xffffffff-rj-k-no",
+                          "author_name": "Brownswood Recordings",
+                          "screenshot": "",
+                          "raw": {
+                            "metatags": [
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Media Capabilities",
+                                "data-expires": "2018-04-12",
+                                "content": "AjLq5uNF7MpG/eM34tWcJD3h8yZY1Q72ckfwdKbUNKGtUNaZkrw55eq2tI60vG0IlsCNw33W9WmuV113EAsdHAwAAABpeyJvcmlnaW4iOiJodHRwczovL3lvdXR1YmUuY29tOjQ0MyIsImZlYXR1cmUiOiJNZWRpYUNhcGFiaWxpdGllcyIsImV4cGlyeSI6MTUyMzQ5MTIwMCwiaXNTdWJkb21haW4iOnRydWV9"
+                              },
+                              {
+                                "http-equiv": "origin-trial",
+                                "data-feature": "Long Task Observer",
+                                "data-expires": "2017-04-17",
+                                "content": "AgXf9faUpH8YmYNhInb5nw8BxXZaT8pZlj3At6FUrcvdBzs0I8VxKDkfinT4bbXfPZX8lXKfjotQZrhFVnpzFwYAAABZeyJvcmlnaW4iOiJodHRwczovL3d3dy55b3V0dWJlLmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ1Rhc2tPYnNlcnZlciIsImV4cGlyeSI6MTQ5MjQ3MzYwMH0="
+                              }
+                            ],
+                            "api": {
+                              "description": "Vinyl/Digital/Stream: https://lnk.to/blackfocus\nSubscribe to Brownswood: http://bit.ly/sub2Brownswood\n\nTracklist:\n\n00:00 1) Black Focus \n04:34 2) Strings of Light \n13:02 3) Remembrance \n22:02 4) Yo Chavez\n26:01 5) Ayla \n26:47 6) O.G.\n27:33 7) Lowrider\n32:01 8) Mansur's Message\n34:07 9) WingTai Drums \n35:23 10) Joint 17\n\nYussef Kamaal are shaped by the sound of London. Growing up in the capital, they frame jazz within the bass-saturated, pirate radio broadcasts of the UK capital. The pair, made up of Yussef Dayes and Kamaal Williams (aka Henry Wu), have had little in the way of formal training. Instead, their musical tastes – and approach to playing – are indebted to Thelonious Monk’s piano as much as the drum programming of Kaidi Tatham.\nclose info\nYussef Kamaal are shaped by the sound of London. Growing up in the capital, they frame jazz within the bass-saturated, pirate radio broadcasts of the UK capital. The pair, made up of Yussef Dayes and Kamaal Williams (aka Henry Wu), have had little in the way of formal training. Instead, their musical tastes – and approach to playing – are indebted to Thelonious Monk’s piano as much as the drum programming of Kaidi Tatham.\nBoth hail from South East London, crossing paths in 2007 as teenagers playing their first pub gigs around Peckham and Camberwell. Dayes drums for cosmically-inclined, afrobeat outfit United Vibrations, while Williams – on top of drumming and playing keys in different incarnations over the years – has made waves with his solo, synth-draped house 12″s for much-fêted labels like 22a and Rhythm Section.\nBorn out of a one-off live session to perform Williams’ solo material for Boiler Room, it soon became a project in its own right. From rehearsing for that first show, it was clear to both that there was the possibility to do much more with the unspoken, telepathic grooves that unfolded. “It’s all about the drums and the keys,” Williams says. “That’s where it all originates from: the chords, the rhythm of the chords and the drums.” Coming together as Yussef Kamaal, they played a series of live shows where little more than a chord progression would be planned before taking to the stage.\nFor the pair, the sound of the capital – with its hum of jungle, grime and broken beat – has shaped a self-taught, UK-tipped approach to playing jazz. Moving in the same circles but never playing together previously, rhythm underpins an innate musical understanding. Drawing influence from all corners of London’s shapeshifting musical make-up, their hotly anticipated debut album is due on Brownswood Recordings November 4th 2016. Titled Black Focus, its sound is distilled – or focused – down to the core interlock between drums and keys.",
+                              "title": "Yussef Kamaal - Black Focus (Full Album Upload)",
+                              "published_at": "2017-02-08T08:00:00.000Z",
+                              "thumbnail_url": "https://i.ytimg.com/vi/4D8YPDdsxYU/default.jpg",
+                              "embed_html": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/4D8YPDdsxYU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "channel_title": "Brownswood Recordings",
+                              "channel_id": "UC-dbAMT_ZkZlByJge49qlfA"
+                            },
+                            "oembed": {
+                              "thumbnail_width": 480,
+                              "type": "video",
+                              "provider_name": "YouTube",
+                              "title": "Yussef Kamaal - Black Focus (Full Album Upload)",
+                              "html": "<iframe width=\"480\" height=\"270\" src=\"https://www.youtube.com/embed/4D8YPDdsxYU?feature=oembed\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                              "version": "1.0",
+                              "provider_url": "https://www.youtube.com/",
+                              "author_name": "Brownswood Recordings",
+                              "height": 270,
+                              "thumbnail_height": 360,
+                              "author_url": "https://www.youtube.com/user/BrownswoodRecs",
+                              "thumbnail_url": "https://i.ytimg.com/vi/4D8YPDdsxYU/hqdefault.jpg",
+                              "width": 480
+                            }
+                          },
+                          "archives": {
+                            "archive_is": {
+                              "location": "http://archive.is/PZM5Q",
+                              "url": "https://www.youtube.com/watch?v=4D8YPDdsxYU",
+                              "type": "archive_is"
+                            },
+                            "archive_org": {
+                              "location": "https://web.archive.org/web/20181024000812/https://www.youtube.com/watch?v=4D8YPDdsxYU",
+                              "url": "https://www.youtube.com/watch?v=4D8YPDdsxYU",
+                              "type": "archive_org"
+                            }
+                          },
+                          "url": "https://www.youtube.com/watch?v=4D8YPDdsxYU",
+                          "provider": "youtube",
+                          "type": "archive_org",
+                          "parsed_at": "2018-10-24T00:07:51.093+00:00",
+                          "favicon": "https://www.google.com/s2/favicons?domain_url=www.youtube.com/watch?v=4D8YPDdsxYU",
+                          "html": "<iframe width=\"480\" height=\"270\" src=\"//www.youtube.com/embed/4D8YPDdsxYU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>",
+                          "embed_tag": "<script src=\"http://pender:3200/api/medias.js?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4D8YPDdsxYU\" type=\"text/javascript\"></script>",
+                          "refreshes_count": 1,
+                          "location": "https://web.archive.org/web/20181024000812/https://www.youtube.com/watch?v=4D8YPDdsxYU"
+                        }
+                      },
+                      "tags": {
+                        "edges": []
+                      },
+                      "tasks": {
+                        "edges": []
+                      },
+                      "annotations": {
+                        "edges": []
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
