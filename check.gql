@@ -33,9 +33,15 @@ query {
             event_type
           }}}
         }}}
-        annotations(annotation_type: "comment") { edges { node {
+        comments: annotations(annotation_type: "comment") { edges { node {
           created_at
           content
+        }}}
+        log { edges { node {
+          created_at
+          user {
+            id
+          }
         }}}
       }}}
     }}}

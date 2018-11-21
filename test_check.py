@@ -10,7 +10,7 @@ class TestCheck(unittest.TestCase):
     self.data = json.load(open('./test_check.json'))
 
   def test_flatten(self):
-    print(flatten(self.data)[['date_published']])
+    print(flatten(self.data)[['count_contributors', 'count_notes', 'count_tasks', 'count_tasks_completed']])
 
 if __name__ == '__main__':
     unittest.main()

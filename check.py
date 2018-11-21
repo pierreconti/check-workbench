@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import numpy as np
 
 # https://stackoverflow.com/a/43621819/209184
 def deep_get(_dict, keys, default=None):
@@ -42,8 +43,13 @@ def flatten(raw):
           'uploadedimage': media['node']['media']['picture'],
           'link': media['node']['media']['url']
         }.get(media['node']['report_type']),
+        'type': media['node']['media']['embed']['provider'] if media['node']['report_type'] == 'link' else media['node']['report_type'],
         'date_published': parse_date(deep_get(media, ['node', 'media', 'embed', 'published_at'], '')),
-        'tags': ', '.join(map(lambda t: t['node']['tag_text'], reverse(media['node']['tags']['edges'])))
+        'tags': ', '.join(map(lambda t: t['node']['tag_text'], reverse(media['node']['tags']['edges']))),
+        'count_contributors': np.unique(map(lambda l: l['node']['user']['id'], media['node']['log']['edges'])).size,
+        'count_notes': len(media['node']['comments']['edges']),
+        'count_tasks': len(media['node']['tasks']['edges']),
+        'count_tasks_completed': len([t for t in media['node']['tasks']['edges'] if t['node']['status'] == 'resolved'])
       })
   return pd.DataFrame(df)
 
