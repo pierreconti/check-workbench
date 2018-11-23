@@ -7,18 +7,23 @@
   "help_url": "https://github.com/meedan/check-workbench",
   "parameters": [
     {
-      "name" : "API key",
-      "id_name" : "key",
-      "type" : "string"
-    },
-    {
-      "name": "Team",
-      "id_name" : "team",
+      "name": "API key",
+      "id_name": "key",
       "type": "string"
     },
     {
+      "name": "Team",
+      "id_name": "team",
+      "type": "string"
+    },
+    {
+      "name": "Anonymize",
+      "id_name": "anonymize",
+      "type": "checkbox"
+    },
+    {
       "name": "Update",
-      "id_name" : "version_select",
+      "id_name": "version_select",
       "type": "custom"
     }
   ]

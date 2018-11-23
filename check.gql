@@ -3,6 +3,10 @@ query {
     projects { edges { node {
       title
       project_medias { edges { node {
+        user {
+          id
+          name
+        }
         created_at
         report_type
         metadata
@@ -17,16 +21,33 @@ query {
           tag_text
         }}}
         tasks { edges { node {
+          annotator {
+            user {
+              id
+              name
+            }
+          }
           created_at
           label
-          jsonoptions
           status
           first_response {
+            annotator {
+              user {
+                id
+                name
+              }
+            }
             created_at
             content
           }
           log { edges { node {
             annotation {
+              annotator {
+                user {
+                  id
+                  name
+                }
+              }
               created_at
               content
             }
@@ -34,6 +55,12 @@ query {
           }}}
         }}}
         comments: annotations(annotation_type: "comment") { edges { node {
+          annotator {
+            user {
+              id
+              name
+            }
+          }
           created_at
           content
         }}}

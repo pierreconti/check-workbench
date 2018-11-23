@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import numpy as np
+from collections import OrderedDict
 
 # https://stackoverflow.com/a/43621819/209184
 def deep_get(_dict, keys, default=None):
@@ -76,10 +77,17 @@ def media_tasks(media):
   for i, task in enumerate(reverse(media['node']['tasks']['edges'])):
     tasks['task_%(i)d_question' % { 'i': i+1 }] = task['node']['label']
     tasks['task_%(i)d_comments' % { 'i': i+1 }] = task_comments(task['node'])
+    tasks['task_%(i)d_added_by' % { 'i': i+1 }] = format_user(task['node']['annotator']['user'], False)
+    tasks['task_%(i)d_added_by_anon' % { 'i': i+1 }] = format_user(task['node']['annotator']['user'], True)
     if task['node']['first_response']:
       tasks['task_%(i)d_answer' % { 'i': i+1 }] = task_answer(task['node'])
       tasks['task_%(i)d_date_answered' % { 'i': i+1 }] = pd.Timestamp.fromtimestamp(int(media['node']['created_at']))
+      tasks['task_%(i)d_answered_by' % { 'i': i+1 }] = format_user(task['node']['first_response']['annotator']['user'], False)
+      tasks['task_%(i)d_answered_by_anon' % { 'i': i+1 }] = format_user(task['node']['first_response']['annotator']['user'], True)
   return tasks
+
+def format_user(user, anonymize):
+  return 'Anonymous-%(id)s' % { 'id': user['id'].replace('\n', '') } if anonymize else user['name']
 
 def flatten(team):
   # Convert the GraphQL result to a Pandas DataFrame.
@@ -87,9 +95,11 @@ def flatten(team):
   for project in team['data']['team']['projects']['edges']:
     for media in project['node']['project_medias']['edges']:
       metadata = json.loads(media['node']['metadata'])
-      df.append({
+      df.append(OrderedDict({
         'project': project['node']['title'],
         'title': metadata['title'],
+        'added_by': format_user(media['node']['user'], False),
+        'added_by_anon': format_user(media['node']['user'], True),
         'date_added': pd.Timestamp.fromtimestamp(int(media['node']['created_at'])),
         'status': media['node']['last_status'],
         'content': media['node']['media']['quote'] if media['node']['report_type'] == 'claim' else metadata['description'],
@@ -108,11 +118,24 @@ def flatten(team):
         'time_to_first_status': media_time_to_status(media, True),
         'time_to_last_status': media_time_to_status(media, False),
         **media_tasks(media),
-      })
+      }))
   return pd.DataFrame(df)
 
 async def fetch(params, **kwargs):
   return flatten(query(params))
 
 def render(table, params, *, fetch_result, **kwargs):
+  if fetch_result is None:
+    return fetch_result
+  if fetch_result.status == 'error':
+    return fetch_result
+  if fetch_result.dataframe.empty:
+    return fetch_result
+
+  columns = [c for c in list(fetch_result.dataframe) if c.endswith('_anon')]
+  for c in columns:
+    if params['anonymize']:
+      del fetch_result.dataframe[c.replace('_anon', '')]
+    else:
+      del fetch_result.dataframe[c]
   return fetch_result
