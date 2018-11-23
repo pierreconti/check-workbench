@@ -7,10 +7,14 @@ from check import render, query, flatten
 
 class TestCheck(unittest.TestCase):
   def setUp(self):
-    self.data = json.load(open('./test_check.json'))
+    self.file = open('./test_check.json')
+    self.data = json.load(self.file)
+
+  def tearDown(self):
+    self.file.close()
 
   def test_flatten(self):
-    print(flatten(self.data)[['count_contributors', 'count_notes', 'count_tasks', 'count_tasks_completed']])
+    print(flatten(self.data)[['comments']])
 
 if __name__ == '__main__':
     unittest.main()
