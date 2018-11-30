@@ -7,6 +7,11 @@
   "help_url": "https://github.com/meedan/check-workbench",
   "parameters": [
     {
+      "name": "API host",
+      "id_name": "host",
+      "type": "string"
+    },
+    {
       "name": "API key",
       "id_name": "key",
       "type": "string"

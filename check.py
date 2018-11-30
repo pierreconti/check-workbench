@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import numpy as np
+import aiohttp
 from collections import OrderedDict
 
 # https://stackoverflow.com/a/43621819/209184
@@ -21,12 +22,104 @@ def parse_date(date_string, default=None):
 def reverse(_array):
   return _array[::-1]
 
-def query(params):
+async def query(params):
   # Use the API key to perform a query on the Check API.
   # Apply the GraphQL query in check.gql.
-  team = params['team']
-  key = params['key']
-  return json.load(open('./test_check.json'))
+  team = params['team'].strip()
+  key = params['key'].strip()
+  host = params['host'].strip()
+  query = {
+    'query': """
+query {
+  team(slug: "${team}") {
+    projects { edges { node {
+      title
+      project_medias { edges { node {
+        user {
+          id
+          name
+        }
+        created_at
+        report_type
+        metadata
+        last_status
+        media {
+          quote
+          picture
+          url
+          embed
+        }
+        tags { edges { node {
+          tag_text
+        }}}
+        tasks { edges { node {
+          annotator {
+            user {
+              id
+              name
+            }
+          }
+          created_at
+          label
+          status
+          first_response {
+            annotator {
+              user {
+                id
+                name
+              }
+            }
+            created_at
+            content
+          }
+          log { edges { node {
+            annotation {
+              annotator {
+                user {
+                  id
+                  name
+                }
+              }
+              created_at
+              content
+            }
+            event_type
+          }}}
+        }}}
+        comments: annotations(annotation_type: "comment") { edges { node {
+          annotator {
+            user {
+              id
+              name
+            }
+          }
+          created_at
+          content
+        }}}
+        log { edges { node {
+          created_at
+          user {
+            id
+          }
+          event_type
+        }}}
+      }}}
+    }}}
+  }
+}
+    """.replace('${team}', team)
+  }
+  session = aiohttp.ClientSession(headers={
+    'X-Check-Token': key
+  })
+  response = await session.post(host + '/api/graphql', data=query)
+  json = await response.json()
+  await session.close()
+  if (json.get('error')):
+    raise Exception(json['error'])
+  if (json.get('errors')):
+    raise Exception(json['errors'][0]['message'])
+  return json
 
 def media_time_to_status(media, first=True):
   times = list(map(lambda l: l['node']['created_at'], [l for l in reverse(media['node']['log']['edges']) if l['node']['event_type'] == 'update_dynamicannotationfield']))
@@ -87,7 +180,7 @@ def media_tasks(media):
   return tasks
 
 def format_user(user, anonymize):
-  return 'Anonymous-%(id)s' % { 'id': user['id'].replace('\n', '') } if anonymize else user['name']
+  return 'Anonymous' if anonymize else user['name']
 
 def flatten(team):
   # Convert the GraphQL result to a Pandas DataFrame.
@@ -122,7 +215,7 @@ def flatten(team):
   return pd.DataFrame(df)
 
 async def fetch(params, **kwargs):
-  return flatten(query(params))
+  return flatten(await query(params))
 
 def render(table, params, *, fetch_result, **kwargs):
   if fetch_result is None:

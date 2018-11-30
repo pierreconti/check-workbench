@@ -9,7 +9,6 @@ setup(
     author='Karim Ratib',
     author_email='karim@meedan.com',
     url='https://github.com/meedan/check-workbench',
-    packages=[''],
     py_modules=['check'],
-    install_requires=['pandas==0.23.4']
+    install_requires=['pandas==0.23.4', 'aiohttp==2.3.10']
 )
