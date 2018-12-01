@@ -4,6 +4,9 @@ import numpy as np
 import aiohttp
 from collections import OrderedDict
 
+class CheckError(Exception):
+  pass
+
 # https://stackoverflow.com/a/43621819/209184
 def deep_get(_dict, keys, default=None):
   for key in keys:
@@ -109,17 +112,14 @@ query {
 }
     """.replace('${team}', team)
   }
-  session = aiohttp.ClientSession(headers={
-    'X-Check-Token': key
-  })
-  response = await session.post(host + '/api/graphql', data=query)
-  json = await response.json()
-  await session.close()
-  if (json.get('error')):
-    raise Exception(json['error'])
-  if (json.get('errors')):
-    raise Exception(json['errors'][0]['message'])
-  return json
+  async with aiohttp.ClientSession(headers={ 'X-Check-Token': key }) as session:
+    async with session.post(host + '/api/graphql', data=query) as response:
+      json = await response.json()
+      if (json.get('error')):
+        raise CheckError(json['error'])
+      if (json.get('errors')):
+        raise CheckError(json['errors'][0]['message'])
+      return json
 
 def media_time_to_status(media, first=True):
   times = list(map(lambda l: l['node']['created_at'], [l for l in reverse(media['node']['log']['edges']) if l['node']['event_type'] == 'update_dynamicannotationfield']))
@@ -215,7 +215,10 @@ def flatten(team):
   return pd.DataFrame(df)
 
 async def fetch(params, **kwargs):
-  return flatten(await query(params))
+  try:
+    return flatten(await query(params))
+  except Exception as err:
+    return '%(ex)s: %(err)s' % { 'ex': err.__class__.__name__, 'err': str(err) }
 
 def render(table, params, *, fetch_result, **kwargs):
   if fetch_result is None:
