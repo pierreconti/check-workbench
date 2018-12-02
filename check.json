@@ -1,7 +1,7 @@
 {
   "name": "Check",
   "id_name": "check",
-  "category" : "Add data",
+  "category" : "Other",
   "loads_data": true,
   "description" : "Import Check team data into Workbench.",
   "help_url": "https://github.com/meedan/check-workbench",
