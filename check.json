@@ -5,6 +5,7 @@
   "loads_data": true,
   "description" : "Import Check team data into Workbench.",
   "help_url": "https://github.com/meedan/check-workbench",
+  "icon": "meedan",
   "parameters": [
     {
       "name": "API host",
